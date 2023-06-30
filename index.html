@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sorteio</title>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="./assets/relogio.png" width="400px" class="changeImage">
+        <div class="result-overlay"></div>
+    </div>
+
+    <h1>HORA DO SORTEIO</h1>
+    <h2>Sortear um Número</h2>
+    <div>
+        <input placeholder="DE" class="input-min" type="number" min="1" max="9999" pattern="/^-?\d+\.?\d*$/"
+            onKeyPress="if(this.value.length==4) return false;">
+        <input placeholder="A" class="input-max" type="number" min="1" max="9999" pattern="/^-?\d+\.?\d*$/"
+            onKeyPress="if(this.value.length==4) return false;">
+    </div>
+
+    <button class="button">Sortear</button>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
