@@ -11,7 +11,9 @@
 <h3>
 <p> -> Definir um número mínimo e máximo para o sorteio, limitando os valores possíveis.
     <br>
+    <br>
     -> Clicar no botão "Sortear" para gerar um número aleatório dentro do intervalo especificado.
+    <br>
     <br>
     -> Exibir o número sorteado de forma visualmente atraente na imagem central na sobreposição.
     <br>
