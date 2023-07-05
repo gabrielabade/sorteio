@@ -15,3 +15,18 @@ button.addEventListener("click", function generateNumber() {
   const resultOverlay = document.querySelector(".result-overlay");
   resultOverlay.textContent = result;
 });
+
+function generateNumberTwo() {
+  const valorMin = Math.ceil(document.querySelector(".input-min").value);
+  const valorMax = Math.floor(document.querySelector(".input-max").value);
+
+  if(valorMin >= valorMax) {
+    alert(`ATENÇÃO: 
+    O primeiro número deve ser menor que o segundo número.`)
+  }
+}
+
+button.addEventListener("click",generateNumberTwo)
+
+
+
